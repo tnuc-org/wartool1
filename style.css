@@ -1,0 +1,132 @@
+html {
+	margin: 0px;
+	padding: 0px;
+	_background-color:#DCDBDD;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color:#DCDBDD;
+	_background:#DCDBDD url("img/null.gif") fixed;
+}
+
+div#website {
+	position: relative;
+	margin: 0px auto;
+	_background-color:#DCDBDD;
+}
+
+div#navbar {
+	position: fixed;
+	_position:absolute;
+	z-index:1;
+	padding:5px;
+	top: 0px;
+	_top:expression(eval(document.compatMode && document.compatMode=='CSS1Compat') ? documentElement.scrollTop : document.body.scrollTop);
+	height: 40px; 
+	width: 100%; 
+	border-bottom: 1px solid black; 
+	background-color:#DCDBDD; 
+}
+
+div#resp {
+	position: fixed;
+	_position:absolute;
+	z-index:2;
+	right: 15px;
+	top: 26px;
+	_top:expression(eval(document.compatMode && document.compatMode=='CSS1Compat') ? documentElement.scrollTop : document.body.scrollTop);
+	_padding-top: 26px;
+	font-weight: bold; 
+	color: #00AA00; 
+	overflow:hidden;
+}
+
+div#content {
+	position: relative;
+	top: 55px;
+	padding-left: 8px; 
+	width: auto; 
+	padding-bottom:30px; 
+	margin-bottom:60px; 
+	_background-color:#DCDBDD;
+}
+
+.response1 {
+	 font-weight: bold;
+	 color: #00AA00; 
+}
+
+.response2 {
+	font-weight: bold;
+	color: #EE0000;
+}
+
+.bggen {
+	background-color:#AACCEE;
+}
+
+.bggenfocus {
+	background-color: #7799EE;
+}
+
+.bgred {
+	/*background-color: #FF9999;*/
+	background-color:#FE9792;
+}
+
+.bggreen {
+	/*background-color: #99FF99;*/
+	background-color:#C4F4CC;
+	
+}
+
+td.bgdark {
+	background-color: #444444;
+	color: #FFFFFF;
+}
+
+a,a:link,a:visited,a:active,a:hover {
+	color:#0000EE;
+	text-decoration:none;
+}
+
+a.admfkt,a.admfkt:link ,a.admfkt:visited,a.admfkt:active,a.admfkt:hover {
+	color:#EE0000;
+	text-decoration:none;
+}
+
+.nokill{
+	background:#C4F4CC;
+}
+
+.killhp{
+	background:#FE9792;
+}
+
+.blacklist{
+	background:#888888;
+	color: #FFFFFF;
+}
+
+.explimit{
+	background:#FFDD77;
+}
+
+.evtgood {
+	color:#00AA00;
+}
+
+.evtbad {
+	color:#FF0000;
+}
+
+.admmsg{
+	color:#FF0000;
+	font-weight:bold;
+}
+
+.fklnk{
+	color:#0000FF;
+}
